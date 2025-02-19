@@ -3,6 +3,6 @@ const searchController = require('../controllers/search');
 
 const router = express.Router();
 
-router.get('/image', searchController.imageSearch);
+router.post('/image', searchController.imageSearch);
 
 module.exports = router;
